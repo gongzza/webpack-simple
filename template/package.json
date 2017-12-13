@@ -57,8 +57,7 @@
       "src/components/**/*.vue"
     ],
     "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/test/karma/"
+      "/node_modules/"
     ],
     "moduleFileExtensions": [
       "js",
