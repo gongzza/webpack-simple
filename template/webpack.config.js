@@ -105,7 +105,6 @@ module.exports = {
 }
 
 if (process.env.NODE_ENV === 'production') {
-  delete module.exports.entry.test
   module.exports.devtool = false // '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
